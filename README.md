@@ -1,2 +1,16 @@
-# x402-router
-ForgeMesh Router (x402 Router) is a paid, ranked service-discovery registry for x402 endpoints. Agents query GET /api/services to discover paid services and their x402 payment metadata. Access is gated by the x402 payment protocol (USDC on Base, ~$0.001 per query) rather than API keys.
+# ForgeMesh Router (x402-router)
+
+This profile was removed, and the provider delisted.
+
+It was one of ~16 x402 API listings pushed to the apis.io Add-API queue by a single
+operator (ForgeMesh Labs) in one short window on 2026-09-17 — several of them outright
+duplicates of one another. That is bulk submission spam. Every auto-submission spends real
+compute researching and building a profile, so flooding the queue has a direct cost.
+
+API Evangelist does not carry listings created by spamming the submission form. The API
+index and every derived artifact have been removed, and this provider is on the permanent
+do-not-list registry.
+
+Spamming the submission queue gets you delisted and banned.
+
+Questions: kin@apievangelist.com

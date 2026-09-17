@@ -1,0 +1,50 @@
+name: x402-router
+description: >-
+  ForgeMesh Router (x402 Router) is a paid, ranked service-discovery registry for x402 endpoints. Agents query GET
+  /api/services to discover paid services and their x402 payment metadata. Access is gated by the x402 payment protocol
+  (USDC on Base, ~$0.001 per query) rather than API keys.
+url: https://raw.githubusercontent.com/api-evangelist/x402-router/refs/heads/main/apis.yml
+created: '2026-09-17'
+modified: '2026-09-17'
+specificationVersion: '0.21'
+tags:
+  - api-discovery
+  - service-registry
+  - x402
+  - agent-commerce
+  - machine-payments
+  - USDC
+  - Base
+  - pay-per-call
+  - developer-tools
+  - AI-agents
+apis:
+  - name: ForgeMesh Router Discovery API
+    description: >-
+      REST/HTTP x402-paid discovery registry. GET /api/services returns ranked x402 service listings with provider name,
+      url, category, reputation_score, pricing, and x402 payment metadata. Gated by the x402 402-challenge micropayment
+      flow (USDC on Base).
+    humanURL: https://router.forgemesh.io
+    baseURL: https://router.forgemesh.io
+    tags:
+      - api-discovery
+      - service-registry
+      - x402
+      - agent-commerce
+      - machine-payments
+      - USDC
+      - Base
+      - pay-per-call
+      - developer-tools
+      - AI-agents
+    properties:
+      - type: Documentation
+        url: https://router.forgemesh.io
+maintainers:
+  - FN: ForgeMesh Labs
+    url: https://forgemesh.io
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 62
+  at: '2026-09-17T14:09:11.521Z'
